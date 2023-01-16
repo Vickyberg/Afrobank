@@ -3,8 +3,7 @@ phases:
   install:
     commands:
       - echo update npm...
-      - npm install -g n
-      - n latest
+      - npm install -g
       - npm update -g npm
       - echo npm -v
       - npm -v
