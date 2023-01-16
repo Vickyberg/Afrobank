@@ -3,8 +3,8 @@ phases:
   install:
     commands:
       - echo update npm...
-      - npm install --location=global
-      - npm update --location=global npm
+      # - npm install --location=global
+      # - npm update --location=global npm
       - echo npm -v
       - npm -v
       - echo install yarn...
