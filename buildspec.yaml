@@ -1,20 +1,15 @@
 version: 0.2
 phases:
   install:
-    commands:
-      # - echo update npm...
-      # - npm install --location=global
-      # - npm update --location=global npm
-      # - echo npm -v
-      # - npm -v
-      - echo install yarn...
-      - npm install --location=global yarn
-      - echo yarn -v
-      - yarn -v
+    - echo install yarn...
+    - npm install -g yarn
+    - echo yarn -v
+    - yarn -v
+
   pre_build:
     commands:
       - echo Pre_build Phase
-      - yarn install --verbose
+      - yarn install --force
   build:
     commands:
       - echo Build Phase
