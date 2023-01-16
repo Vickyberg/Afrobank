@@ -14,7 +14,7 @@ phases:
   pre_build:
     commands:
       - echo Pre_build Phase
-      - yarn install
+      - yarn install --verbose
   build:
     commands:
       - echo Build Phase
