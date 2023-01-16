@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      -yarn i --force 
+      -yarn i
       - pip install --upgrade pip
   pre_build:
     commands:
